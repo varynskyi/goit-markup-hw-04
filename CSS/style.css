@@ -136,7 +136,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('../images/herobg.jpg');
+    url('/images/herobg.jpg');
 }
 
 .hero_title {
