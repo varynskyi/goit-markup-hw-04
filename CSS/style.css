@@ -113,19 +113,16 @@ ul {
   cursor: pointer;
 }
 
-.nav-contact a::before {
-  content: ' ';
-  fill: currentColor;
-}
-
 .nav-icon {
+  content: '';
   fill: currentColor;
   margin-right: 10px;
 }
 
 .nav-icon:hover,
 .nav-icon:focus {
-  fill: var(--blue-text);
+  fill: currentColor;
+  color: var(--blue-text);
 }
 
 .hero,
@@ -142,7 +139,8 @@ ul {
     ),
     url(/images/herobg.jpg);
   background-repeat: no-repeat;
-  width: 1600px;
+  position: static;
+  max-width: 1600px;
   height: 600px;
 }
 
