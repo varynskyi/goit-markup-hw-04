@@ -14,7 +14,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(-black-text);
-  max-width: 1600px;
 }
 
 ul {
@@ -54,8 +53,13 @@ ul {
   margin-bottom: 32px;
 }
 
+.nav-contact {
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-contact li {
-  margin-left: 331px;
+  margin-left: 305px;
 }
 
 .nav-contact li:last-child {
@@ -136,7 +140,10 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('/images/herobg.jpg');
+    url(/images/herobg.jpg);
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 600px;
 }
 
 .hero_title {
@@ -155,12 +162,16 @@ ul {
 
 .hero_btn {
   font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 50px;
   background-color: var(--blue-text);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  justify-content: center;
   text-align: center;
+  align-items: center;
   letter-spacing: 0.06em;
   color: var(--white-text);
   margin-top: 40px;
@@ -395,7 +406,7 @@ ul {
 }
 
 .footer-ico {
-  color: var(--gray-icon);
+  color: var(--white-text);
   border-radius: 50%;
   background-color: rgb(255, 255, 255, 0.1);
   width: 44px;
